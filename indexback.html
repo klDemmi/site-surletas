@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUR LE TAS</title>
+
+    <!-- Inclure Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Style personnalisé -->
+    <style>
+        /* Couleurs */
+        :root {
+            --bleu-futuriste: #007BFF;
+            --gris-clair: #F8F9FA;
+            --gris-sombre: #343A40;
+            --vert-technologique: #28A745;
+            --orange-innovation: #FD7E14;
+        }
+
+        /* Typographie */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto Condensed', sans-serif;
+            color: var(--bleu-futuriste);
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: var(--gris-sombre);
+            background-color: var(--gris-clair);
+        }
+
+        a {
+            color: var(--bleu-futuriste);
+        }
+
+        a:hover {
+            color: var(--vert-technologique);
+        }
+
+        /* Autres styles personnalisés */
+        .btn-primary {
+            background-color: var(--bleu-futuriste);
+            border-color: var(--bleu-futuriste);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--vert-technologique);
+            border-color: var(--vert-technologique);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- En-tête -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <<a class="navbar-brand" href="#">
+    <img src="logo1.png" alt="Logo de SUR LE TAS" class="img-fluid logo">
+  </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Événements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Partenariats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Médias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bannière principale -->
+  <header>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="headerVideo">
+        <source src="animationSLT.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay text-center">
+       
+        <a href="#" class="btn btn-primary">Rejoignez-nous</a>
+    </div>
+</header>
+
+    <!-- Section À propos -->
+   
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>À Propos de Nous</h2>
+                <p>
+                    Bienvenue chez "SUR LE TAS", une association dynamique basée à Saint-Denis. Notre mission est d'offrir une plateforme collaborative où la curiosité rencontre l'innovation. 
+                </p>
+                <p>
+                    Notre approche unique encourage l'apprentissage mutuel et la création collaborative. Sous la guidance de mentors professionnels, les participants sont immergés dans des brainstormings créatifs et la réalisation pratique de projets.
+                </p>
+                <a href="#" class="btn btn-primary mt-3">En savoir plus</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="young_people_1.jpg" alt="Une image représentative de l'association" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Pied de page -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2023 SUR LE TAS. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Inclure Bootstrap JS et jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

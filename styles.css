@@ -1,0 +1,79 @@
+header {
+    position: relative;
+    overflow: hidden;
+    height: 60vh; /* Cela fait en sorte que le header prenne la hauteur totale de la fenêtre du navigateur */
+}
+
+#headerVideo {
+    width: 100%;
+    height: 60vh; /* Assurez-vous que la vidéo s'étire pour couvrir la hauteur du header */
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     background-color: rgba(255, 255, 255, 0); /* Cela définit un fond blanc avec une opacité de 0 (complètement transparent) */
+
+    color: #fff;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 40px; /* taille par défaut pour desktop */
+    width: aubody {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+to; /* conserve les proportions */
+}
+
+/* Ajustements pour les écrans mobiles */
+@media (max-width: 768px) {
+    .logo {
+        height: 30px;
+    }
+}
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
